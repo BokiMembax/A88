@@ -1,0 +1,282 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+
+  -webkit-animation: fadein 6s;
+  -moz-animation: fadein 6s;
+  -ms-animation: fadein 6s;
+  -o-animation: fadein 6s;
+  animation: fadein 6s;
+}
+
+.subtitle {
+  z-index: 2;
+
+  -webkit-animation: fadein 6s;
+  -moz-animation: fadein 6s;
+  -ms-animation: fadein 6s;
+  -o-animation: fadein 6s;
+  animation: fadein 6s;
+}
+
+.bg-rose {
+  background-color: #ff0066 !important;
+  background-color: #ff003c !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #e0ebdc;
+  transition: .2s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffcf00;
+}
+
+video.header-video {
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-blog {
+  width: 100%;
+  color: #e0ebdc;
+}
+
+.header-blog a {
+  color: #e0ebdc;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.header-blog a:hover {
+  color: #578bcf;
+}
+
+.header-email {
+  width: 100%;
+  color: #e0ebdc;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.scrollTop {
+  display: none;
+  height: auto;
+  max-width: 100px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.heading-black {
+  color: #000;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: #dfdfdf;
+  min-height: 250px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #000;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.mb10 {
+  padding-bottom: 15px;
+}
+
+.footer_ul {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+
+.footer_ul li {
+  padding: 0px 0px 5px 0px;
+}
+
+.footer_ul li a {
+  color: #b30047;
+  transition: .1s ease-in-out;
+}
+
+.footer_ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.bottom_border {
+  padding-bottom: 20px;
+}
+
+.social-icons {
+  border-radius: 0.25rem;
+}
+
+.social-icons i {
+  font-size: 22px;
+  transition: all .4s ease;
+  padding: 12px 10px;
+  cursor: pointer;
+  border-radius: .25rem;
+}
+
+.social-icons span {
+  padding: 0px 5px;
+  align-self: center;
+}
+
+.social-icons .facebook {
+  color: #3b5998;
+}
+
+.social-icons .twitter {
+  color: #2daae1;
+}
+
+.social-icons .instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.social-icons .youtube {
+  color: #ff3132;
+}
+
+.social-icons .linkedin {
+  color: #0e76a8;
+}
+
+.social-icons .facebook:hover {
+  background: #3b5998;
+  color: #fff;
+}
+
+.social-icons .twitter:hover {
+  background: #2daae1;
+  color: #fff;
+}
+
+.social-icons .instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: #fff;
+}
+
+.social-icons .youtube:hover {
+  background: #ff3132;
+  color: #fff;
+}
+
+.social-icons .linkedin:hover {
+  background: #0e76a8;
+  color: #fff;
+}
+
+.copyright {
+  background: radial-gradient(#071844de, #ff006633);
+}
+
+#demo .carousel-caption {
+  bottom: 60px;
+  color: #fff;
+  background: #ff006677;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#carousel1 .carousel-item img {
+  height: 400px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.card-img,
+.card-img-top {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  height: 15vw;
+  object-fit: cover;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px solid rgb(0 255 184 / 80%);
+}
